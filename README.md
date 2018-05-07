@@ -43,14 +43,14 @@ This plugin is created by [Ciro Artigot](http://twitter/ciroartigot) to contribu
   4. Aixeena SEO default params
   
  * In a article with own menu itemid:
-  1. Menu params 
-  2. Article Aixeena SEO tab params (image, title and description).
-  3. Fulltext image, introtext image and the the images in the text.
-  4. Aixeena SEO default params
+   1. Menu params 
+   2. Article Aixeena SEO tab params (image, title and description).
+   3. Fulltext image, introtext image and the the images in the text.
+   4. Aixeena SEO default params
   
   * Others menu itemid (no articles):
-  1. Menu params 
-  2. Aixeena SEO default params
+    1. Menu params 
+    2. Aixeena SEO default params
 
 5.- Donate
 ---------------------------
