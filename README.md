@@ -58,7 +58,7 @@ You can [donate](https://www.paypal.com/donate/?token=YJ_4RSeWoYiDjVYv0nqui0cvJg
 
 6.- Author & License
 ---------------------------
-AixeenaSEO images was developed by [Ciro Artigot](http://twitter.com/ciroartigot).
+AixeenaSEO metas was developed by [Ciro Artigot](http://twitter.com/ciroartigot).
 
 This extension is licensed under GNU/GPL 2, http://www.gnu.org/licenses/gpl-2.0.html  
 
