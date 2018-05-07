@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3" type="plugin" group="system">
+	<name>Aixeena SEO - Metas</name>
+	<author>Ciro Artigot</author>
+	<creationDate>May 2018</creationDate>
+	<copyright>Copyright (C) 2018 Ciro Artigot. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>info@aixeena.org</authorEmail>
+	<authorUrl>www.aixeena.org</authorUrl>
+	<version>1.0.0</version>
+	<description>
+	<![CDATA[<div style="background-color:#f2f2f2; padding:20px; margin:20px; border-radius:10px;">
+	<p><strong>AixeenaSEO Metas</strong> it is a plugin to set the Open Graph and Twitter metas of your Joomla.
+	With this plugin you can get better results in SEO and social sharing of your website, because it creates a canonical link, Open Graph and Twitter metas, with a lot of configuration posibilities to set the title, shared image and description values.</p>
+	<div style="clear:both"></div></div>]]>
+	</description>
+	
+	<files>
+		<filename plugin="aixeenaseometas">aixeenaseometas.php</filename>
+		<filename>index.html</filename>
+		<folder>forms</folder>
+	</files>
+	
+	<!--
+	<updateservers>
+        <server type="extension" priority="2" name="Aixeena updates">
+				http://aixeena.org/updates/aixeena_seo/aixeenaseometas.xml
+        </server>
+    </updateservers>-->
+	
+	<config>
+	
+	<fields name="params">
+		<fieldset name="basic">
+	
+			<field name="canonical" type="radio"
+						class="btn-group" default="1" description="" label="Canonical link">
+				<option value="0">Disable</option>
+				<option value="1">Enable</option>
+			</field>
+		
+			<field 
+				  name="imageredes"
+				  type="media"
+				  label="Default social media image"
+				  description=""
+				  class="inputbox"
+				  directory="images/" 
+				/>
+		
+			<field name="facebook" type="radio"
+						class="btn-group" default="1" description="" label="Open Graph">
+				<option value="0">Disable</option>
+				<option value="1">Enable</option>
+			</field>
+			
+			<field name="fbappid" type="text" default="453271191693562" label="Facebook App ID" description="" />
+			
+			<field name="fbtype" type="text" default="article" label="Facebook default type" description="" />
+			
+			<field name="twitter" type="radio"
+						class="btn-group" default="1" description="" label="Twitter Cards">
+				<option value="0">Disable</option>
+				<option value="1">Enable</option>
+			</field>
+			
+			<field name="cardtype" type="list"
+						class="btn-group" default="summary_large_image" description="" label="Twitter Card type">
+				<option value="summary">summary</option>
+				<option value="summary_large_image">summary_large_image</option>
+			</field>
+			
+			<field name="cardsite" type="text" default="@aixeena" label="Twitter site" description="" />
+			
+			<field name="cardcreator" type="text" default="@aixeena" label="Twitter creator" description="" />
+			
+			<field name="dublin" type="radio"
+						class="btn-group" default="0" description="" label="Dublin Core Metadata">
+				<option value="0">Disable</option>
+				<option value="1">Enable</option>
+			</field>
+	
+		</fieldset>
+		
+	</fields>	
+	</config>
+</extension>
